@@ -1,0 +1,178 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "release:latest": {
+      "name": "release:latest",
+      "command": "yarn release:latest",
+      "runAtStart": false
+    },
+    "release:next": {
+      "name": "release:next",
+      "command": "yarn release:next",
+      "runAtStart": false
+    },
+    "release:prep": {
+      "name": "release:prep",
+      "command": "yarn release:prep",
+      "runAtStart": false
+    },
+    "release:tag": {
+      "name": "release:tag",
+      "command": "yarn release:tag",
+      "runAtStart": false
+    },
+    "get:version": {
+      "name": "get:version",
+      "command": "yarn get:version",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "typecheck": {
+      "name": "typecheck",
+      "command": "yarn typecheck",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "testw": {
+      "name": "testw",
+      "command": "yarn testw",
+      "runAtStart": false
+    },
+    "testc": {
+      "name": "testc",
+      "command": "yarn testc",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "lint:tslint:src": {
+      "name": "lint:tslint:src",
+      "command": "yarn lint:tslint:src",
+      "runAtStart": false
+    },
+    "lint:tslint:tests": {
+      "name": "lint:tslint:tests",
+      "command": "yarn lint:tslint:tests",
+      "runAtStart": false
+    },
+    "lint:prettier": {
+      "name": "lint:prettier",
+      "command": "yarn lint:prettier",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "build:cjs": {
+      "name": "build:cjs",
+      "command": "yarn build:cjs",
+      "runAtStart": false
+    },
+    "build:es": {
+      "name": "build:es",
+      "command": "yarn build:es",
+      "runAtStart": false
+    },
+    "build:esm": {
+      "name": "build:esm",
+      "command": "yarn build:esm",
+      "runAtStart": false
+    },
+    "build:esm:min": {
+      "name": "build:esm:min",
+      "command": "yarn build:esm:min",
+      "runAtStart": false
+    },
+    "build:umd": {
+      "name": "build:umd",
+      "command": "yarn build:umd",
+      "runAtStart": false
+    },
+    "build:umd:min": {
+      "name": "build:umd:min",
+      "command": "yarn build:umd:min",
+      "runAtStart": false
+    },
+    "build:downlevel-dts": {
+      "name": "build:downlevel-dts",
+      "command": "yarn build:downlevel-dts",
+      "runAtStart": false
+    },
+    "scratchpad:start": {
+      "name": "scratchpad:start",
+      "command": "yarn scratchpad:start",
+      "runAtStart": false
+    },
+    "scratchpad:run": {
+      "name": "scratchpad:run",
+      "command": "yarn scratchpad:run",
+      "runAtStart": false
+    },
+    "scratchpad:flame": {
+      "name": "scratchpad:flame",
+      "command": "yarn scratchpad:flame",
+      "runAtStart": false
+    },
+    "apps:node": {
+      "name": "apps:node",
+      "command": "yarn apps:node",
+      "runAtStart": false
+    },
+    "apps:deno": {
+      "name": "apps:deno",
+      "command": "yarn apps:deno",
+      "runAtStart": false
+    },
+    "apps:web": {
+      "name": "apps:web",
+      "command": "yarn apps:web",
+      "runAtStart": false
+    },
+    "apps:web:mac": {
+      "name": "apps:web:mac",
+      "command": "yarn apps:web:mac",
+      "runAtStart": false
+    },
+    "apps:rn:ios": {
+      "name": "apps:rn:ios",
+      "command": "yarn apps:rn:ios",
+      "runAtStart": false
+    },
+    "apps:rn:android": {
+      "name": "apps:rn:android",
+      "command": "yarn apps:rn:android",
+      "runAtStart": false
+    },
+    "apps:rn:emulator": {
+      "name": "apps:rn:emulator",
+      "command": "yarn apps:rn:emulator",
+      "runAtStart": false
+    },
+    "npm start": {
+      "name": "npm start",
+      "command": "npm start",
+      "runAtStart": true
+    }
+  }
+}
